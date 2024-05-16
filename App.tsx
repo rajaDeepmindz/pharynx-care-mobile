@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react';
 import {Provider} from 'react-redux';
 import store from './src/Redux/Store';
@@ -14,8 +15,7 @@ const App = () => {
   return (
     <Provider store={store}>
       {/* <DrawerNavigator /> */}
-      <View
-        style={{backgroundColor: 'white', flex: 1, alignItems: 'center'}}  >
+      <View style={{backgroundColor: 'white', flex: 1, alignItems: 'center'}}>
         <CustomBottamNav
           height={50}
           bg={'pink'}

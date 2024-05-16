@@ -157,10 +157,10 @@ const ResultScreen: React.FC<Props> = ({data}) => {
         <View style={styles.separator} />
 
         <View style={styles.analysisSection}>
-          <Image
-            style={styles.analysisImage}
-            source={{ uri: 'https://assist.pharynxai.in:6211/static/images/result_0.jpg' }}
-          />
+            <Image
+              style={styles.analysisImage}
+              source={{ uri: 'https://assist.pharynxai.in:6211/static/images/result_0.jpg' }}
+            />
           <View style={styles.tableContainer}>
             <View style={styles.tableRow}>
               <Text style={styles.tableCellLeft}>Name</Text>
